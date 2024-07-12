@@ -1,14 +1,15 @@
-import { useState } from 'react'
+import React from 'react'
+import Login from '../Components/LoginPage/Login'
 
-import './App.css'
 
-function App() {
- 
-
+const App = () => {
   return (
-    <>
-      <h1 className='bg-green-500'>Test tailwind</h1>
-    </>
+    <div>
+      <Login/>
+      
+
+
+    </div>
   )
 }
 
